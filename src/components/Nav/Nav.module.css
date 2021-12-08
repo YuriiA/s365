@@ -1,0 +1,55 @@
+.main-menu {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  flex-grow: 1;
+
+  margin: 0;
+
+
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 800;
+
+}
+
+.main-menu a:hover {
+  text-decoration: underline;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+
+  background-color: rgb(88, 88, 88, 0.2);
+  padding: 1rem;
+  border-radius: 40px
+}
+
+.nav img {
+  width: 35px;
+  height: 35px;
+}
+
+.nav p {
+  margin: 0;
+}
+
+.active {
+  background-color: var(--primary-color);
+}
+
+.push-right {
+  margin-left: auto;
+}

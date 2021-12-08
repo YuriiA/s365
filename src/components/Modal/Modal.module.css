@@ -1,0 +1,61 @@
+.backdrop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  inset: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal {
+  background-color: rgba(256, 256, 256, 0.5);
+  border-radius: 10px;
+  box-shadow: #000 0 0 100px;
+
+
+}
+
+
+
+.header {
+  position: relative;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.header h1 {
+  margin: 0.5rem 0 0 0.5rem;
+  padding-right: 2rem;
+}
+
+
+.footer {
+  border-top: 1px solid var(--light-grey);
+  display: flex;
+  gap: 0.5rem;
+  justify-content: flex-end;
+  padding: 0.3rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+}
+
+.close-btn:hover {
+  background-color: var(--light-grey);
+}
+
+.close-btn:active {
+  background-color: var(--dark-grey);
+}

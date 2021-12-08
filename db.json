@@ -1,0 +1,196 @@
+{
+  "users": [
+    {
+      "email": "1@a.com",
+      "password": "$2a$10$f6FBs0fbYZXNcZ1SCnDraOMCRUkS5Q3VBVMhLjuZPSim.QN8/NxJy",
+      "firstName": "Yurii",
+      "lastName": "Ag",
+      "website": "www.example.com",
+      "profileUrl": "http://res.cloudinary.com/dynamics/image/upload/v1635851117/tebrmz3wj43mnejbvdbp.jpg",
+      "id": 1
+    },
+    {
+      "email": "2@a.com",
+      "password": "$2a$10$AcH.yU4l93BPc2Yy7NzAcu3Vr7HZSzDXPlGFjpsox0iK7bgm.VoDO",
+      "firstName": "user2",
+      "lastName": "2",
+      "website": "www.com",
+      "profileUrl": "http://res.cloudinary.com/dynamics/image/upload/v1635261473/ea142ab3uq1uzoaqxb24.jpg",
+      "id": 2
+    },
+    {
+      "email": "3@a.com",
+      "password": "$2a$10$RSeg3W0Jw1fnhscvmpebqOCuKMeH6XF79wUsx7pjiP3445YuyHCem",
+      "firstName": "user3",
+      "lastName": "3",
+      "website": "www.com",
+      "profileUrl": "http://res.cloudinary.com/dynamics/image/upload/v1635261536/jpbxqbmuqotonizfylza.jpg",
+      "id": 3
+    },
+    {
+      "email": "4@a.com",
+      "password": "$2a$10$cywR31EruPCkwhQatA4LaO5rc1N/KJ1eQ1UDwhKLUsFZQvNsL9UH.",
+      "firstName": "user4",
+      "lastName": "4",
+      "website": "www.4.com",
+      "profileUrl": "http://res.cloudinary.com/dynamics/image/upload/v1635261598/onmigrihwphen2izlnkc.jpg",
+      "id": 4
+    },
+    {
+      "email": "6@a.com",
+      "password": "$2a$10$eKyYhElNSNwUAI3HG3bWN.JHDgHmcCW7JlnKT2nFEwkXt19O1CArS",
+      "firstName": "test user",
+      "lastName": "user5",
+      "website": "testUser5.com",
+      "profileUrl": "http://res.cloudinary.com/dynamics/image/upload/v1636976939/nr7ax8tc8dptzh0yppcu.jpg",
+      "id": 5
+    }
+  ],
+  "ads": [
+    {
+      "userId": 1,
+      "title": "2 rooms apartment",
+      "year": "2010",
+      "price": "5900000",
+      "area": "55",
+      "rooms": "42",
+      "country": "Monaco",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635789667/iznoi82v2qywmdf4tsme.jpg",
+      "id": 8,
+      "phone": "+3400236577",
+      "description": "dwfesgrdh",
+      "city": "Monaco"
+    },
+    {
+      "userId": 1,
+      "title": "amazing view 3 rooms apartment",
+      "year": "1998",
+      "price": "5600000",
+      "area": "61",
+      "rooms": "3",
+      "country": "Monaco",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635789602/lcd1p3lhzw4izi8ahvph.jpg",
+      "id": 9,
+      "phone": "+3466600432",
+      "city": "Monaco"
+    },
+    {
+      "userId": 1,
+      "title": "studio with panoramic view",
+      "year": "1988",
+      "price": "371000",
+      "area": "38",
+      "rooms": "1",
+      "country": "France",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635439040/vljza5ll0xwvjfckfiaq.jpg",
+      "id": 10,
+      "phone": "+3476452220",
+      "city": "Menton"
+    },
+    {
+      "userId": 1,
+      "title": "Beachfront 3 rooms",
+      "year": "1999",
+      "price": "515000",
+      "area": "71",
+      "rooms": "3",
+      "country": "France",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635439155/qkecuqoejgevihghvrum.jpg",
+      "id": 11,
+      "phone": "+336568844",
+      "city": "Nice"
+    },
+    {
+      "userId": 2,
+      "title": "Great ofer! Faboulous view",
+      "year": "2004",
+      "price": "350000",
+      "area": "51",
+      "rooms": "2",
+      "country": "France",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635439339/uigmhoqpplrbalacld6m.jpg",
+      "id": 12,
+      "phone": "+4466467899",
+      "city": "Menton"
+    },
+    {
+      "userId": 2,
+      "title": "APARTMENT FOR SALE IN AL YASS TOWER",
+      "year": "2014",
+      "price": "1800000",
+      "area": "88",
+      "rooms": "2",
+      "country": "AE",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635439545/vhgs41qsl9jtei7ubequ.webp",
+      "id": 13,
+      "phone": "+99843334",
+      "city": "Dubai"
+    },
+    {
+      "userId": 2,
+      "title": "Marina View | High Floor | Elegant Design",
+      "year": "2018",
+      "price": "1200000",
+      "area": "60",
+      "rooms": "1",
+      "country": "AE",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635439697/prnu5hzmtlz8tz8f1h8i.webp",
+      "id": 14,
+      "phone": "+55422323",
+      "city": "Dubai"
+    },
+    {
+      "userId": 3,
+      "title": "APARTMENT FOR SALE IN CREEK HORIZON, TOWER 2",
+      "year": "2012",
+      "price": "1350000",
+      "area": "65",
+      "rooms": "2",
+      "country": "AE",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635439842/a4ueretawdpszhpl9fwy.webp",
+      "id": 15,
+      "phone": "+3432356",
+      "city": "Dubai"
+    },
+    {
+      "userId": 3,
+      "title": "Sea view 2 rooms",
+      "year": "1956",
+      "price": "230000",
+      "area": "47",
+      "rooms": "2",
+      "country": "Italy",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635440150/wpzw5tqqpfo3zxbycefx.jpg",
+      "id": 16,
+      "phone": "+9875645343",
+      "city": "San Remo"
+    },
+    {
+      "userId": 3,
+      "title": "3 rooms close to the beach",
+      "year": "1978",
+      "price": "460000",
+      "area": "59",
+      "rooms": "3",
+      "country": "Italy",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1635440218/chl32qi2farcxhbpniil.jpg",
+      "id": 17,
+      "phone": "+24354657",
+      "city": "Olbia"
+    },
+    {
+      "userId": 1,
+      "title": "Studio near marina",
+      "year": "2000",
+      "price": "456000",
+      "area": "58",
+      "rooms": "2",
+      "country": "AE",
+      "url": "http://res.cloudinary.com/dynamics/image/upload/v1636146121/bgj0vec2e8yo1bvuyt8u.webp",
+      "description": "nice apartment, close to the beach",
+      "id": 18,
+      "phone": "+27033354",
+      "city": "Dubai"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+:root {
+  min-height: 100vh;
+  --primary-hue: 55;
+  --primary-saturation: 100%;
+  --primary-color: hsl(var(--primary-hue), var(--primary-saturation), 75%);
+  --primary-dark: hsl(var(--primary-hue), var(--primary-saturation), 20%);
+  --primary-light: hsl(var(--primary-hue), var(--primary-saturation), 70%);
+
+  --light-grey: #dedede;
+  --dark-grey: #bcbcbc;
+
+  --border-radius: 3px;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+
+  height: 100%;
+
+  background: url('http://localhost:3000/images/bg.jpeg');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.btn {
+  border: 1px solid #999;
+  background-color: var(--light-grey);
+  border-radius: var(--border-radius);
+
+  padding: 0.2em 0.5em;
+}
+
+.btn:focus {
+  background-color: var(--dark-grey);
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-dark);
+  color: var(--primary-dark);
+}
+
+.btn-primary:focus {
+  background-color: var(--primary-light);
+}
+
+
+.form {
+  margin: 50px auto;
+  width: 55%;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 600px;
+  background-color: rgb(189, 190, 190, 0.7);
+
+}
+
+.mb-3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mb-3 input {
+  margin: 0.2rem;
+}
+
+.mb-3 h3 {
+  margin: 10px 0 10px 0;
+}
+
+.invalid-feedback {
+  color: red;
+}
+
+.invalid-feedback h4 {
+  margin: 10px 0 10px 0;
+}
+
+.upload {
+  display: flex
+}
+
+.confirmation {
+  text-align: center;
+  background-color: rgb(88, 155, 82, 0.8);
+}
+
+.adsContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  padding: 10px;
+
+}
+
+@media (max-width: 992px) {
+  .adsContainer {
+    grid-template-columns: auto;
+  }
+
+  .adsHeader {
+    justify-content: space-between
+  }
+}
+
+.adsHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+
+.search {
+  background-color: transparent;
+
+  margin: 15px auto auto 45%;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+
+
+}
+
+::placeholder {
+  color: black;
+  opacity: 1
+}
+
+.search:focus {
+  outline: 0;
+}
+
+.allAdsList {
+  color: black;
+  font-size: 2rem;
+}
+
+.home h1 {
+  color: #fff;
+}
+
+.homeNav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-top: 2rem;
+  color: white;
+  background: rgba(88, 88, 88, 0.2);
+  border-radius: 40px
+}
+
+.homeNav h1 {
+  margin: 0 10px;
+
+}
+
+.bgVideo {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+
+}
+
+.cityWeather {
+  display: flex;
+  justify-content: space-evenly;
+
+  border-radius: 40px;
+  background: rgba(88, 88, 88, 0.2)
+}
